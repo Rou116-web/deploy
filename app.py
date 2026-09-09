@@ -1,13 +1,3 @@
-"""
-Aplikasi Deteksi Emosi Real-Time (HAPPY / ANGRY / SAD)
-Menggunakan model Teachable Machine (Keras .h5) + webcam.
-
-Cara pakai:
-    1. Install dependencies:  pip install -r requirements.txt
-    2. Jalankan:               python app.py
-    3. Tekan 'q' untuk keluar.
-"""
-
 from keras.models import load_model
 from PIL import Image, ImageOps
 import numpy as np
